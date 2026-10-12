@@ -13,6 +13,7 @@ export function ManePage() {
   return (
     <div>
      <div style={{ display: "flex" }}>
+      <h1>Musicfun Player</h1>
         <TracksList 
             onTrackSelect={handleTrackSelect} 
             selectedTrackId={trackId}/>
